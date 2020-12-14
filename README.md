@@ -80,4 +80,7 @@ Your package.json should be like this 👇
 
 ### Happy Hacking 💻
 
+<h1 align="center"> 
+  <img alt="commitlint gif" src="./assets/commit-convention.gif" width="800px"/>
+</h1>
 
