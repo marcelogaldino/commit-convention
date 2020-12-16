@@ -16,6 +16,18 @@ Using npm
 npm install -D husky cz-conventional-changelog @commitlint/config-conventional @commitlint/cli
 ```
 
+**Create a commitlint config file on you root folder structure**
+```bash
+touch commitlint.config.js
+```
+
+Insert the following code below into the file
+```json
+module.exports = {
+    extends: ['@commitlint/config-conventional']
+}
+```
+
 **Configuring your package.json**
 
 Add husky config in order to trigger for commit messages
